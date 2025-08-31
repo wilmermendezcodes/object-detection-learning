@@ -165,4 +165,6 @@ Tips to reduce false positives:
 - Training helpers: dataset stats, auto‑split, semi‑auto labeling loops
 
 ---
-SwiftDetect is designed to get you from “hello world” to a robust, production‑ready detector with practical defaults and clear escape hatches.
+SwiftDetect is designed to get you from “hello world” to a robust, detector with practical defaults and clear escape hatches.
+
+(This Repo is for learning purposes only and not intended in any production or commercial use)
