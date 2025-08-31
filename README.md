@@ -1,6 +1,6 @@
-# SwiftDetect — Production-Grade Object Detection Web App
+# SwiftDetect — Object Detection Web App
 
-SwiftDetect is a full‑stack, production‑oriented object detection web app. It combines a FastAPI back end with a modern React (Vite) front end to deliver live camera streaming, image/video inference, overlays, model selection, and practical developer ergonomics.
+SwiftDetect is a full‑stack, object detection web app. It combines a FastAPI back end with a modern React (Vite) front end to deliver live camera streaming, image/video inference, overlays, model selection, and practical developer ergonomics.
 
 - Fast, clean dev experience with hot reload (frontend 8080, backend 8000)
 - Camera, image, and WebSocket streaming with responsive overlays
@@ -140,7 +140,7 @@ Tips to reduce false positives:
 - Slow/laggy boxes: ping‑pong WS is enabled; reduce `confidence` only if recall matters; try `yolo11n` for speed.
 
 ## Licensing and Attribution
-- Repository code (this project): choose and add a license file (e.g., MIT or Apache‑2.0) to clarify your distribution terms. Until a license file is added, assume “all rights reserved”.
+- Repository code (this project): assume “all rights reserved”.
 - Ultralytics YOLO:
   - Code is licensed by Ultralytics (currently AGPL‑3.0 for YOLOv8/YOLOv11 code). Review terms: https://github.com/ultralytics/ultralytics
   - Pretrained model weights follow Ultralytics’ model terms. Check the Ultralytics repository or website for the latest model license details before redistribution or commercial use.
