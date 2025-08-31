@@ -1,0 +1,13 @@
+fastapi>=0.112
+uvicorn[standard]>=0.30
+pydantic>=2.7
+orjson>=3.10
+pillow>=10.3
+numpy>=1.26
+python-multipart>=0.0.9
+
+# Optional engines
+# ultralytics>=8.2
+# onnxruntime>=1.18
+# openvino>=2024.1
+
